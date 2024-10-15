@@ -1,0 +1,235 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  background-image: url(https://prettyhome.co.in/wp-content/uploads/2023/05/white-gold-square-shape-3d-wall-background-wallpaper-backdrop-1-scaled.jpg);
+}
+
+
+/* Navigation Bar */
+.navibar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f0f0e;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.navibar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navibar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.home {
+  font-weight: bold;
+}
+
+.products, .mycart, .orders, .login {
+  font-weight: normal;
+}
+
+/* Content Area */
+.content {
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Homepage Content */
+.homepage-content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Signup and Login Form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+form p {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Product List */
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.product-card p {
+  color: #555;
+  font-size: 16px;
+}
+
+.product-card button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #555;
+}
+
+/* Cart */
+.cart-container {
+  margin: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.cart-item-details h4 {
+  margin: 0;
+}
+
+.cart-item-details p {
+  margin: 5px 0;
+}
+
+.cart-item-price {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Orders */
+.order-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.order-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #555;
+}
+

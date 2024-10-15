@@ -1,0 +1,60 @@
+
+    
+    .regform {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        margin: 4rem auto;
+        animation: fadeIn 0.5s ease-out;
+        text-align: center; 
+        }
+        .regform h2 {
+        margin-top: 0;
+        font-size: 1.8rem;
+        color: #333;
+        font-weight: 600;
+        }
+        .regform div {
+        margin-bottom: 1.5rem;
+        }
+        
+        .regform label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        gap: 10px;
+        }
+        .regform input, .regform textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: border-color 0.3s;
+        }
+        form input:focus, form textarea:focus {
+        border-color: #0f0f0f;
+        outline: none;
+        }
+        .regform button {
+        background-color: #141414;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        margin-top: 1rem; /* Space above the button */
+        }
+        .regform button:hover {
+        background-color: #232325;
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+      .regform div{
+        margin-bottom: 0.1rem;
+      }
